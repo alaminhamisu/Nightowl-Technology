@@ -1,0 +1,239 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+body {
+	background: url('../html/slider/slider.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	overflow-x: hidden;
+}
+
+header {
+	position: fixed;
+}
+
+ul li{
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+li a{
+	text-decoration: none;
+	color: white;
+	font-family: "Roboto";
+	font-weight: 400;
+}
+
+.Part1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.Part1 h1{
+	font-size: 100px;
+	font-weight: 600;
+	letter-spacing: 0;
+	text-align: center;
+	color: white;
+	margin-top: 130px;
+}
+.Part1 h2{
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 10;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	font-family: "Roboto";
+	font-weight: 400;
+}
+
+.button1{
+	padding: 15px 30px;
+	font-size: 20px;
+	color: white;
+	margin-top: 40px;
+	background: blue;
+	outline: 0;
+	border: 0;
+	border-radius: 50px;
+	font-family: "Roboto";
+	font-weight: 400;
+
+}
+.mainA {
+	background: url('../html/tech.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+.mainA h1{
+	font-size: 80px;
+	font-weight: 600;
+	letter-spacing: 0;
+	text-align: center;
+	color: white;
+	margin-top: 0px;
+	font-family: "";
+	font-weight: 500;
+}
+
+.mainA h2{
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 0;
+	text-align: center;
+	color: white;
+	margin-top: 5px;
+	font-family: "Roboto";
+	font-weight: 100;
+}
+.mainB {
+	background: url('../html/apps.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+.mainB h1{
+	font-size: 40px;
+	font-weight: 600;
+	letter-spacing: 0;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	font-family: "Roboto";
+	font-weight: 500;
+}
+.mainB h2{
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 0;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+	font-family: "Roboto";
+	font-weight: bold;
+
+}
+.button3{
+	padding: 15px 30px;
+	font-size: 20px;
+	color: black;
+	margin-top: 40px;
+	background: white;
+	outline: 0;
+	border: 0;
+	border-radius: 50px;
+	font-family: "Roboto";
+	font-weight: 400;
+
+}
+.button4{
+	padding: 15px 30px;
+	font-size: 20px;
+	color: black;
+	margin-top: 40px;
+	background: white;
+	outline: 0;
+	border: 0;
+	border-radius: 50px;
+	font-family: "Roboto";
+	font-weight: 400;
+
+}
+
+.mainC {
+	background: url('../html/white.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+.mainC h1{
+	font-size: 40px;
+	font-weight: 600;
+	letter-spacing: 0;
+	text-align: center;
+	color: black;
+	margin-top: 20px;
+	font-family: "Roboto";
+	font-weight: 300;
+}
+.button6{
+	padding: 5px 20px;
+	font-size: 20px;
+	color: white;
+	margin-top: 30px;
+	background: blue;
+	outline: 0;
+	border: 0;
+	border-radius: 50px;
+	font-family: "";
+	font-weight: 400;
+
+}
+.mainD {
+	background: url('../html/contact.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+.mainD h1{
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: 0;
+	text-align: center;
+	color: white;
+	margin-top: 0px;
+}
+.mainD h2{
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 0;
+	text-align: center;
+	color: white;
+	margin-top: 0px;
+}
+.button2{
+	padding: 15px 30px;
+	font-size: 20px;
+	color: black;
+	margin-top: 200px;
+	background: white;
+	outline: 0;
+	border: 0;
+	border-radius: 50px;
+	font-family: "Roboto";
+	font-weight: 400;
+
+}
+#footer{
+	color: white;
+	padding: 37px;
+	background-color: rgb(37, 39, 37);
+	font-family: Agency FB;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+
+

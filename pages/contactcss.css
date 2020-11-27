@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+body {
+	
+}
+header {
+	position: fixed;
+}
+ul li{
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+li a{
+	text-decoration: none;
+	color: white;
+	font-family: "Roboto";
+	font-weight: 400;
+}
+.myproj {
+	background: url('../html/tech.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+		width: 100%;
+		height: 100vh;
+}
+.myproj h1{
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: 0;
+	text-align: center;
+	color: white;
+	margin-top: 300px;
+}
+.myproj h2{
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 10;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	font-family: "Roboto";
+	font-weight: 400;
+}
+.second {
+	background: url('../html/contact.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+.second h1{
+	font-size: 70px;
+	font-weight: 600;
+	letter-spacing: 0;
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+}
+.second h2{
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 10;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+	font-family: "Roboto";
+	font-weight: 400;
+}
+.button2{
+	padding: 15px 30px;
+	font-size: 20px;
+	color: black;
+	margin-top: 160px;
+	background: white;
+	outline: 0;
+	border: 0;
+	border-radius: 50px;
+	font-family: "Roboto";
+	font-weight: 400;
+
+}
+#footer{
+	color: white;
+	padding: 37px;
+	background-color: rgb(37, 39, 37);
+	font-family: Agency FB;
+	font-size: 13px;
+	font-weight: 400;
+}
